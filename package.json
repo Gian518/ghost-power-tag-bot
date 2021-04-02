@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js",
-    "postinstall": "npm install && touch tags.json && echo \"{}\" >> ./tags.json && touch .env && echo \"TELEGRAM_TOKEN=\" >> ./.env && GREEN=\"\\033[0;32m\" && echo \"${GREEN}Success! Remember to write the Telegram token in the env file. Have fun!\""
+    "prepareall": "npm install && touch tags.json && echo \"{}\" >> ./tags.json && touch .env && echo \"TELEGRAM_TOKEN=\" >> ./.env && GREEN=\"\\033[0;32m\" && echo \"${GREEN}Success! Remember to write the Telegram token in the env file. Have fun!\""
   },
   "keywords": [],
   "author": "",
