@@ -6,11 +6,11 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js",
-    "postinstall": "touch tags.json && echo -e \"{}\" >> ./tags.json && touch .env && echo -e \"TELEGRAM_TOKEN=\" >> ./.env echo \"Success! Remember to write the Telegram token in the env file. Have fun!\""
+    "postinstall": "touch tags.json && echo \"{}\" >> ./tags.json && touch .env && echo \"TELEGRAM_TOKEN=\" >> ./.env && echo \"Success! Remember to write the Telegram token in the env file. Have fun!\""
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "dotenv": "^8.2.0",
     "node-telegram-bot-api": "^0.52.0"
